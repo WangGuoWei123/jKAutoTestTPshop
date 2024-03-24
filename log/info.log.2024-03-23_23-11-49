@@ -1,0 +1,2 @@
+2024-03-23 23:11:49,357 WARNING [tp_case.py(setUp:20)] - <requests.sessions.Session object at 0x0000026AB0728CC0>
+2024-03-23 23:11:53,935 WARNING [tp_case.py(setUp:20)] - <requests.sessions.Session object at 0x0000026AB0728CC0>

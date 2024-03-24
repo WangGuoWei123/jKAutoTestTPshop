@@ -1,0 +1,24 @@
+{
+
+  "login_wrong_username":{
+    "username":"13811176158",
+    "password":"wangguowei1225",
+    "verify_code":"8888",
+    "msg":"账号不存在",
+    "status":-1
+  },
+  "login_wrong_password":{
+    "username":"13811176151",
+    "password":"654321",
+    "verify_code":"8888",
+    "msg":"密码错误",
+    "status":-2
+  },
+   "login_success":{
+    "username":"13811176151",
+    "password":"wangguowei1225",
+    "verify_code":"8888",
+    "msg":"登陆成功",
+    "status":1
+  }
+}
