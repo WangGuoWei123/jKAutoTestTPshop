@@ -21,6 +21,9 @@ class LoginTest(unittest.TestCase):
     def setUp(self):
         VerifyCodeApi().get_verify_code()
 
+    def tearDown(self):
+        pass
+
     @classmethod
     def tearDown(cls):
         # self.verify_code.session.close()
