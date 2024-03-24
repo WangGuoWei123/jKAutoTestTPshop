@@ -9,7 +9,7 @@ from app import BASE_DIR
 
 class MakeSession(object):
     session = None
-    print("测试下")
+    print("测试功能修改")
     @classmethod
     def make_session(cls):
         if cls.session is None:
