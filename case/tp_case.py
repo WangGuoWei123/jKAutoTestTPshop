@@ -28,6 +28,7 @@ class LoginTest(unittest.TestCase):
     def tearDown(cls):
         # self.verify_code.session.close()
         cls.session.close()
+        print("测试下")
 
     @parameterized.expand(log_data)
     def test_login(self, username, password, verify_code, msg):
