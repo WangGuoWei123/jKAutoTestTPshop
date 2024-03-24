@@ -9,7 +9,7 @@ from app import BASE_DIR
 
 class MakeSession(object):
     session = None
-
+    pring("测试下")
     @classmethod
     def make_session(cls):
         if cls.session is None:
